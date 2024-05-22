@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 const shapes = {
     circle: "rounded- [50%]",
-    square: "rounded-[0px]",
+    square: "rounded-[11px]",
     round: "rounded-[28px]",
 };
 
