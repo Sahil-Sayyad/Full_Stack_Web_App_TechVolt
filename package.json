@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.9.1",

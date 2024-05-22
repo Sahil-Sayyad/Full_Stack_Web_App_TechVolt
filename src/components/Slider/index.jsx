@@ -17,7 +17,7 @@ const Slider = React.forwardRef(
         };
 
         const slideItems = centerMode
-
+        
         ? items?.map((child,index) =>{
 
             if(isSmall(index)){

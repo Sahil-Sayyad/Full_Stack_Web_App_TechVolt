@@ -106,7 +106,7 @@ export default function HomepageHeader({
             {!!shopTwo ? (
                <Text size="xl" as="p" className="!font-medium capitalize ">
                {shopTwo}
-             </Text>
+              </Text>
             ): null}
           </div>
         </div>
