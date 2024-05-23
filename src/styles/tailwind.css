@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 [type="text"],
 input:where(:not([type])),
 [type="email"],

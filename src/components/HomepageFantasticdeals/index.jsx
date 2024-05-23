@@ -21,7 +21,7 @@ export default function HomepageFantasticdeals({
                     {description}
                 </Text>
             </div>
-            <Button color="deep_orange_A700" shape="square" className="min-w-[170px] font-inter font-medium sm:px-5">
+            <Button color="deep_orange_A700" className="min-w-[170px] font-inter font-medium sm:px-5 ">
                 {button}
             </Button>
         </div>
