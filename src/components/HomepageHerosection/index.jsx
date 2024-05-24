@@ -56,7 +56,7 @@ export default function HomepageHerosection({
                                         </Button>
                                     </div>
                                 </div>
-                            </div>
+                            </div> 
                         </React.Fragment>
                     )}  
                     />

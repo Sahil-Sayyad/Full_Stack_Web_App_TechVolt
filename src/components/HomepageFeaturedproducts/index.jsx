@@ -187,6 +187,6 @@ export default function HomepageFeaturedproducts(){
                             </div>
                         </div>
                     </div>
-                 </div>
+        </div>
     );
 }

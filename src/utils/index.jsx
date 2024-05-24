@@ -19,5 +19,21 @@ const data = [
         button:"Learn More",
     },
 ]
-
-export {data};
+const data1 = [
+    {
+        image:"images/img_image_7_318x421.png",
+        text1:"Complete your space",
+        text2:"TechVolt Object Colletion",
+    },
+    {
+        image:"images/img_image_7_1.png",
+        text1:"Complete your space",
+        text2:"TechVolt Object Colletion",
+    },
+    {
+        image:"images/img_image_7_2.png",
+        text1:"Complete your space",
+        text2:"TechVolt Object Colletion",
+    },
+]
+export {data, data1};

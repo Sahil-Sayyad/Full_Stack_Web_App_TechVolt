@@ -3,12 +3,13 @@ import HomepageHeader from "../../components/HomepageHeader";
 import HomepageHerosection from "../../components/HomepageHerosection";
 import HomepageFantasticdeals from "components/HomepageFantasticdeals";
 import HomepageFeaturedproducts from "components/HomepageFeaturedproducts";
+import HomepageHightlights from "components/HomepageHightlights";
 import { data } from "utils";
 
 export default function Homepage(){
     
     const backgroundColors = ["bg-orange-100", "bg-slate-200","bg-stone-300"]; 
-    
+
     return( 
         <>
             <div className="flex w-full flex-col items-center bg-white-A700">
@@ -34,7 +35,9 @@ export default function Homepage(){
                   <HomepageFeaturedproducts/>
 
 
-                 {/** */}
+                 {/**Highlights Section */}
+                 <HomepageHightlights/>
+                 
             </div>
         </>
     )
