@@ -36,4 +36,19 @@ const data1 = [
         text2:"TechVolt Object Colletion",
     },
 ]
-export {data, data1};
+
+const data2 = [
+    {
+        tvImage:"images/img_image_7_576x426.png",
+        tvDescription:"Complete your space",
+    },
+    {
+        tvImage:"images/img_image_7_3.png",
+        tvDescription:"Washing Machine",
+    },
+    {
+        tvImage:"images/img_image_7_4.png",
+        tvDescription:"Air Conditioner",
+    },
+]
+export {data, data1,data2};

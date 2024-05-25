@@ -4,6 +4,9 @@ import HomepageHerosection from "../../components/HomepageHerosection";
 import HomepageFantasticdeals from "components/HomepageFantasticdeals";
 import HomepageFeaturedproducts from "components/HomepageFeaturedproducts";
 import HomepageHightlights from "components/HomepageHightlights";
+import HomepageExperiencesection from "components/HomepageExperiencesection";
+import HomepageSupportsection from "components/HomepageSupportsection";
+import HomepageFootersection from "components/HomepageFootersection";
 import { data } from "utils";
 
 export default function Homepage(){
@@ -34,9 +37,17 @@ export default function Homepage(){
                  {/* featured products section */}
                   <HomepageFeaturedproducts/>
 
-
                  {/**Highlights Section */}
-                 <HomepageHightlights/>
+                  <HomepageHightlights/>
+
+                 {/**Experience Section */}
+                  <HomepageExperiencesection/>
+
+                 {/**Support Section */}
+                  <HomepageSupportsection/>
+
+                 {/**Footer Section */}
+                  <HomepageFootersection/>
                  
             </div>
         </>
