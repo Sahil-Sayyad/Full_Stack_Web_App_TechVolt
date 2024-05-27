@@ -8,9 +8,9 @@
 
 ## Pre-requisites
 
--[git](https://git-scm.com/) - v2.13 or greater
--[NodeJs](https://nodejs.org/en/) -v16 or greater
--[npm](https://www.npmjs.com/) -v6 or greater
+- [git](https://git-scm.com/) - v2.13 or greater
+- [NodeJs](https://nodejs.org/en/) -v16 or greater
+- [npm](https://www.npmjs.com/) -v6 or greater
 
 ## Running in dev environment
 
