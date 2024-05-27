@@ -17,6 +17,7 @@ export default function HomepageSupportsection(){
 
             </div>
             <div className="grid grid-cols-4 gap-10 md:grid-cols-2 sm:grid-cols-1">
+
                 <div className="flex w-full flex-col items-start gap-[50px] rounded-[24px] border border-solid border-gray-400 px-[21px] py-[33px] sm:p-5">
                     <div className="flex items-start gap-3 self-stretch">
                         <div className="flex flex-1 flex-col gap-2.5">
@@ -34,161 +35,170 @@ export default function HomepageSupportsection(){
                         <Img src="images/img_icon.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] font-inter font-medium sm:px-5">
+                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] font-inter font-medium sm:px-5">
                         Learn More
                     </Button>
 
                 </div>
+
                 <div className="flex w-full flex-col items-start gap-[50px] rounded-[24px] border border-solid border-gray-400 px-[21px] py-[33px] sm:p-5">
                     <div className="flex items-start gap-3 self-stretch">
                         <div className="flex flex-1 flex-col gap-2.5">
                             <Text size="5xl" as="p" className="w-[81%] leading-[42px] !text-black-900 md:w-full">
                                 <>
                                  Product <br/>
-                                 Registration
+                                 Support
                                 </>
                             </Text>
                             <Text as="p" className="leading-6 !text-gray-700">
-                                Registering your product will help you get faster support.
+                                Find manual, trobleshoot and warranty of your TechVolt product.
                             </Text>
 
                         </div>
-                        <Img src="images/img_icon.svg" alt="product image" className="h-[48px] w-[48px]"/>
+                        <Img src="images/img_icon_black_900_02.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] font-inter font-medium sm:px-5">
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} 
+                    className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
                         Learn More
                     </Button>
 
                 </div>
+
                 <div className="flex w-full flex-col items-start gap-[50px] rounded-[24px] border border-solid border-gray-400 px-[21px] py-[33px] sm:p-5">
                     <div className="flex items-start gap-3 self-stretch">
                         <div className="flex flex-1 flex-col gap-2.5">
                             <Text size="5xl" as="p" className="w-[81%] leading-[42px] !text-black-900 md:w-full">
                                 <>
-                                 Product <br/>
-                                 Registration
+                                 Order  <br/>
+                                 Support
                                 </>
                             </Text>
                             <Text as="p" className="leading-6 !text-gray-700">
-                                Registering your product will help you get faster support.
+                            Track your order and check order FAQ.
                             </Text>
 
                         </div>
-                        <Img src="images/img_icon.svg" alt="product image" className="h-[48px] w-[48px]"/>
+                        <Img src="images/img_icon_black_900_02_48x48.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] font-inter font-medium sm:px-5">
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
                         Learn More
                     </Button>
 
                 </div>
+
                 <div className="flex w-full flex-col items-start gap-[50px] rounded-[24px] border border-solid border-gray-400 px-[21px] py-[33px] sm:p-5">
                     <div className="flex items-start gap-3 self-stretch">
                         <div className="flex flex-1 flex-col gap-2.5">
                             <Text size="5xl" as="p" className="w-[81%] leading-[42px] !text-black-900 md:w-full">
                                 <>
-                                 Product <br/>
-                                 Registration
+                                 Repair <br/>
+                                 request
+
                                 </>
                             </Text>
                             <Text as="p" className="leading-6 !text-gray-700">
-                                Registering your product will help you get faster support.
+                            Request repair service conveniently online.
                             </Text>
 
                         </div>
-                        <Img src="images/img_icon.svg" alt="product image" className="h-[48px] w-[48px]"/>
+                        <Img src="images/img_icon_48x48.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] font-inter font-medium sm:px-5">
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
                         Learn More
                     </Button>
 
                 </div>
+
                 <div className="flex w-full flex-col items-start gap-[50px] rounded-[24px] border border-solid border-gray-400 px-[21px] py-[33px] sm:p-5">
                     <div className="flex items-start gap-3 self-stretch">
                         <div className="flex flex-1 flex-col gap-2.5">
                             <Text size="5xl" as="p" className="w-[81%] leading-[42px] !text-black-900 md:w-full">
                                 <>
-                                 Product <br/>
-                                 Registration
+                                Quick help
+
                                 </>
                             </Text>
                             <Text as="p" className="leading-6 !text-gray-700">
-                                Registering your product will help you get faster support.
+                            Get instant help on shopping.
                             </Text>
 
                         </div>
-                        <Img src="images/img_icon.svg" alt="product image" className="h-[48px] w-[48px]"/>
+                        <Img src="images/img_icon_1.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] font-inter font-medium sm:px-5">
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                        Learn More
+                    </Button>
+
+
+                </div>
+
+                <div className="flex w-full flex-col items-start gap-[50px] rounded-[24px] border border-solid border-gray-400 px-[21px] py-[33px] sm:p-5">
+                    <div className="flex items-start gap-3 self-stretch">
+                        <div className="flex flex-1 flex-col gap-2.5">
+                            <Text size="5xl" as="p" className="w-[81%] leading-[42px] !text-black-900 md:w-full">
+                                <>
+                                WhatsApp
+                                </>
+                            </Text>
+                            <Text as="p" className="leading-6 !text-gray-700">
+                            Talk to our customer service via WhatsApp
+                            </Text>
+
+                        </div>
+                        <Img src="images/img_volume.svg" alt="product image" className="h-[48px] w-[48px]"/>
+
+                    </div>
+                     <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                        Learn More
+                    </Button>
+
+
+                </div>
+
+                <div className="flex w-full flex-col items-start gap-[50px] rounded-[24px] border border-solid border-gray-400 px-[21px] py-[33px] sm:p-5">
+                    <div className="flex items-start gap-3 self-stretch">
+                        <div className="flex flex-1 flex-col gap-2.5">
+                            <Text size="5xl" as="p" className="w-[81%] leading-[42px] !text-black-900 md:w-full">
+                                <>
+                                Email us
+
+                                </>
+                            </Text>
+                            <Text as="p" className="leading-6 !text-gray-700">
+                                Send an Email to TechVolt Customer Service
+                            </Text>
+
+                        </div>
+                        <Img src="images/img_icon_2.svg" alt="product image" className="h-[48px] w-[48px]"/>
+
+                    </div>
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
                         Learn More
                     </Button>
 
                 </div>
+
                 <div className="flex w-full flex-col items-start gap-[50px] rounded-[24px] border border-solid border-gray-400 px-[21px] py-[33px] sm:p-5">
                     <div className="flex items-start gap-3 self-stretch">
                         <div className="flex flex-1 flex-col gap-2.5">
                             <Text size="5xl" as="p" className="w-[81%] leading-[42px] !text-black-900 md:w-full">
                                 <>
-                                 Product <br/>
-                                 Registration
+                                Call us
                                 </>
                             </Text>
                             <Text as="p" className="leading-6 !text-gray-700">
-                                Registering your product will help you get faster support.
+                                Speak directly with our support representatives.
                             </Text>
 
                         </div>
-                        <Img src="images/img_icon.svg" alt="product image" className="h-[48px] w-[48px]"/>
+                        <Img src="images/img_icon_3.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] font-inter font-medium sm:px-5">
-                        Learn More
-                    </Button>
-
-                </div>
-                <div className="flex w-full flex-col items-start gap-[50px] rounded-[24px] border border-solid border-gray-400 px-[21px] py-[33px] sm:p-5">
-                    <div className="flex items-start gap-3 self-stretch">
-                        <div className="flex flex-1 flex-col gap-2.5">
-                            <Text size="5xl" as="p" className="w-[81%] leading-[42px] !text-black-900 md:w-full">
-                                <>
-                                 Product <br/>
-                                 Registration
-                                </>
-                            </Text>
-                            <Text as="p" className="leading-6 !text-gray-700">
-                                Registering your product will help you get faster support.
-                            </Text>
-
-                        </div>
-                        <Img src="images/img_icon.svg" alt="product image" className="h-[48px] w-[48px]"/>
-
-                    </div>
-                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] font-inter font-medium sm:px-5">
-                        Learn More
-                    </Button>
-
-                </div>
-                <div className="flex w-full flex-col items-start gap-[50px] rounded-[24px] border border-solid border-gray-400 px-[21px] py-[33px] sm:p-5">
-                    <div className="flex items-start gap-3 self-stretch">
-                        <div className="flex flex-1 flex-col gap-2.5">
-                            <Text size="5xl" as="p" className="w-[81%] leading-[42px] !text-black-900 md:w-full">
-                                <>
-                                 Product <br/>
-                                 Registration
-                                </>
-                            </Text>
-                            <Text as="p" className="leading-6 !text-gray-700">
-                                Registering your product will help you get faster support.
-                            </Text>
-
-                        </div>
-                        <Img src="images/img_icon.svg" alt="product image" className="h-[48px] w-[48px]"/>
-
-                    </div>
-                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] font-inter font-medium sm:px-5">
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[30px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5 content-start">
                         Learn More
                     </Button>
 
