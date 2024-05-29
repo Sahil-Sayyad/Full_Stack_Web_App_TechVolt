@@ -39,7 +39,7 @@ export default function HomepageHeader({
               </li>
 
               <li>
-                <a href="#" className="border-b-2 border-solid border-deep_orange-A700">
+                <a href="productgrid" className="border-b-2 border-solid border-deep_orange-A700">
                   <Text size="2xl" as="p" className="p-[11px] tracking-[1.40px]">
                     {shop}
                   </Text>
