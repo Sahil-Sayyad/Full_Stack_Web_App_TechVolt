@@ -8,11 +8,14 @@ import React from "react"
 export default function ProductListing(){
     return (
         <div className="flex flex-1 flex-col items-start gap-[23px] md:self-stretch">
+
             <Text as="p" className="!font-medium !text-black-900">
                 34 Results
             </Text>
+
             <div className="grid grid-cols-3 gap-10 self-stretch md:grid-cols-2 sm:grid-cols-1">
-                <a href="#" target="_blank">
+
+                {/* <a href="#" target="_blank"> */}
                     <div className="flex w-full flex-col gap-[22px] rounded-[30px] border border-solid border-gray-400_01 px-5 pb-6 pt-9 sm:py-5">
                         <Img src="images/img_image_3_219x293.png" alt="product image" className="h-[219px] object-cover"/>
                         <div className="flex flex-col gap-[23px]">
@@ -20,7 +23,7 @@ export default function ProductListing(){
                             <Text size="xl" as="p" className="!font-medium leading-[27px] !text-black-900">
                                         5 Star (1.5), Split AC, AI Convertible 6-in-1, Gold Fin+ & Black Protection, 2024 Model
                             </Text>
-                            <div className="flex w-[57%] items-center justify-center gap-2 md:w-full">
+                            <div className="flex w-[57%]  gap-2 md:w-full">
 
                                         <RatingBar value={1} isEditable={true} size = {18} className = "flex flex-1 justify-between"/>
 
@@ -48,11 +51,12 @@ export default function ProductListing(){
                                     </Heading>
                                 </div>
                         </div>
-                        <Button  color="deep_orange_A700" className="w-full font-inter font-bold sm:px-5" >
+                        <Button  color="deep_orange_A700" className="w-full  font-inter font-bold sm:px-5" >
                              Add to Basket
                         </Button>
                     </div>
-                </a>
+                {/* </a> */}
+
                 <div className="flex w-full flex-col gap-[22px] rounded-[30px] border border-solid border-gray-400_01 px-5 pb-6 pt-9 sm:py-5">
                         <Img src="images/img_image_3_1.png" alt="product image" className="h-[219px] object-cover"/>
                         <div className="flex flex-col gap-[23px]">
@@ -60,7 +64,7 @@ export default function ProductListing(){
                             <Text size="xl" as="p" className="!font-medium leading-[27px] !text-black-900">
                                        Smart Washer - Wi-Fi Connectivity, Auto-Dosing Technology, Steam Clean.
                             </Text>
-                            <div className="flex w-[57%] items-center justify-center gap-2 md:w-full">
+                            <div className="flex w-[57%]  gap-2 md:w-full">
 
                                         <RatingBar value={1} isEditable={true} size = {18} className = "flex flex-1 justify-between"/>
 
@@ -92,14 +96,16 @@ export default function ProductListing(){
                              Add to Basket
                         </Button>
                 </div>
+
+
                 <div className="flex w-full flex-col gap-[22px] rounded-[30px] border border-solid border-gray-400_01 px-5 pb-6 pt-9 sm:py-5">
                         <Img src="images/img_image_3_2.png" alt="product image" className="h-[219px] object-cover"/>
                         <div className="flex flex-col gap-[23px]">
                             <div className="flex flex-col gap-2">
                             <Text size="xl" as="p" className="!font-medium leading-[27px] !text-black-900">
-                                        Ultra-Efficient Washing Machine - Energy Star Rated, Eco-Cycle Technology, Stainless Steel
+                                        Ultra-Efficient Washing Machine - Energy Star Rated, Eco-Cycle Technology.
                             </Text>
-                            <div className="flex w-[57%] items-center justify-center gap-2 md:w-full">
+                            <div className="flex w-[57%] gap-2 md:w-full">
 
                                         <RatingBar value={1} isEditable={true} size = {18} className = "flex flex-1 justify-between"/>
 
@@ -131,14 +137,16 @@ export default function ProductListing(){
                              Add to Basket
                         </Button>
                 </div>
+
+
                 <div className="flex w-full flex-col gap-[22px] rounded-[30px] border border-solid border-gray-400_01 px-5 pb-6 pt-9 sm:py-5">
-                        <Img src="images/img_image_3_2.png" alt="product image" className="h-[219px] object-cover"/>
+                        <Img src="images/img_image_3_3.png" alt="product image" className="h-[219px] object-cover"/>
                         <div className="flex flex-col gap-[23px]">
                             <div className="flex flex-col gap-2">
                             <Text size="xl" as="p" className="!font-medium leading-[27px] !text-black-900">
-                                        Ultra-Efficient Washing Machine - Energy Star Rated, Eco-Cycle Technology, Stainless Steel
+                                    High-Capacity Laundry Machine - XXL Drum, Quick Wash Cycle, Silent Operation
                             </Text>
-                            <div className="flex w-[57%] items-center justify-center gap-2 md:w-full">
+                            <div className="flex w-[57%] gap-2 md:w-full">
 
                                         <RatingBar value={1} isEditable={true} size = {18} className = "flex flex-1 justify-between"/>
 
@@ -170,14 +178,16 @@ export default function ProductListing(){
                              Add to Basket
                         </Button>
                 </div>
+
+
                 <div className="flex w-full flex-col gap-[22px] rounded-[30px] border border-solid border-gray-400_01 px-5 pb-6 pt-9 sm:py-5">
-                        <Img src="images/img_image_3_2.png" alt="product image" className="h-[219px] object-cover"/>
+                        <Img src="images/img_image_3_4.png" alt="product image" className="h-[219px] object-cover"/>
                         <div className="flex flex-col gap-[23px]">
                             <div className="flex flex-col gap-2">
                             <Text size="xl" as="p" className="!font-medium leading-[27px] !text-black-900">
-                                        Ultra-Efficient Washing Machine - Energy Star Rated, Eco-Cycle Technology, Stainless Steel
+                            Premium Front-Load Washer - Allergen Removal Cycle, TurboWash Technology.
                             </Text>
-                            <div className="flex w-[57%] items-center justify-center gap-2 md:w-full">
+                            <div className="flex w-[57%]  gap-2 md:w-full">
 
                                         <RatingBar value={1} isEditable={true} size = {18} className = "flex flex-1 justify-between"/>
 
@@ -209,14 +219,16 @@ export default function ProductListing(){
                              Add to Basket
                         </Button>
                 </div>
+
+
                 <div className="flex w-full flex-col gap-[22px] rounded-[30px] border border-solid border-gray-400_01 px-5 pb-6 pt-9 sm:py-5">
-                        <Img src="images/img_image_3_2.png" alt="product image" className="h-[219px] object-cover"/>
+                        <Img src="images/img_image_3_5.png" alt="product image" className="h-[219px] object-cover"/>
                         <div className="flex flex-col gap-[23px]">
                             <div className="flex flex-col gap-2">
                             <Text size="xl" as="p" className="!font-medium leading-[27px] !text-black-900">
-                                        Ultra-Efficient Washing Machine - Energy Star Rated, Eco-Cycle Technology, Stainless Steel
+                            Eco-Friendly Top-Load Washer - Water Saving Mode, PowerWash System.
                             </Text>
-                            <div className="flex w-[57%] items-center justify-center gap-2 md:w-full">
+                            <div className="flex w-[57%]  gap-2 md:w-full">
 
                                         <RatingBar value={1} isEditable={true} size = {18} className = "flex flex-1 justify-between"/>
 
@@ -248,14 +260,16 @@ export default function ProductListing(){
                              Add to Basket
                         </Button>
                 </div>
+
+
                 <div className="flex w-full flex-col gap-[22px] rounded-[30px] border border-solid border-gray-400_01 px-5 pb-6 pt-9 sm:py-5">
-                        <Img src="images/img_image_3_2.png" alt="product image" className="h-[219px] object-cover"/>
+                        <Img src="images/img_image_3_6.png" alt="product image" className="h-[219px] object-cover"/>
                         <div className="flex flex-col gap-[23px]">
                             <div className="flex flex-col gap-2">
                             <Text size="xl" as="p" className="!font-medium leading-[27px] !text-black-900">
-                                        Ultra-Efficient Washing Machine - Energy Star Rated, Eco-Cycle Technology, Stainless Steel
+                              Advanced Laundry Appliance - Smart Sensor Technology, Auto Dispense, Quiet Operation.
                             </Text>
-                            <div className="flex w-[57%] items-center justify-center gap-2 md:w-full">
+                            <div className="flex w-[57%]  gap-2 md:w-full">
 
                                         <RatingBar value={1} isEditable={true} size = {18} className = "flex flex-1 justify-between"/>
 
@@ -287,14 +301,16 @@ export default function ProductListing(){
                              Add to Basket
                         </Button>
                 </div>
+
+
                 <div className="flex w-full flex-col gap-[22px] rounded-[30px] border border-solid border-gray-400_01 px-5 pb-6 pt-9 sm:py-5">
-                        <Img src="images/img_image_3_2.png" alt="product image" className="h-[219px] object-cover"/>
+                        <Img src="images/img_image_3_7.png" alt="product image" className="h-[219px] object-cover"/>
                         <div className="flex flex-col gap-[23px]">
                             <div className="flex flex-col gap-2">
                             <Text size="xl" as="p" className="!font-medium leading-[27px] !text-black-900">
-                                        Ultra-Efficient Washing Machine - Energy Star Rated, Eco-Cycle Technology, Stainless Steel
+                            Luxury Front-Load Washer - Diamond Drum, Steam Refresh, Super Speed Cycle.
                             </Text>
-                            <div className="flex w-[57%] items-center justify-center gap-2 md:w-full">
+                            <div className="flex w-[57%]  gap-2 md:w-full">
 
                                         <RatingBar value={1} isEditable={true} size = {18} className = "flex flex-1 justify-between"/>
 
@@ -326,14 +342,16 @@ export default function ProductListing(){
                              Add to Basket
                         </Button>
                 </div>
+
+
                 <div className="flex w-full flex-col gap-[22px] rounded-[30px] border border-solid border-gray-400_01 px-5 pb-6 pt-9 sm:py-5">
-                        <Img src="images/img_image_3_2.png" alt="product image" className="h-[219px] object-cover"/>
+                        <Img src="images/img_image_3_8.png" alt="product image" className="h-[219px] object-cover"/>
                         <div className="flex flex-col gap-[23px]">
                             <div className="flex flex-col gap-2">
                             <Text size="xl" as="p" className="!font-medium leading-[27px] !text-black-900">
-                                        Ultra-Efficient Washing Machine - Energy Star Rated, Eco-Cycle Technology, Stainless Steel
+                            Eco-Cycle Washing Machine - Water Recirculation System, Energy Efficient, Child Lock.
                             </Text>
-                            <div className="flex w-[57%] items-center justify-center gap-2 md:w-full">
+                            <div className="flex w-[57%]  gap-2 md:w-full">
 
                                         <RatingBar value={1} isEditable={true} size = {18} className = "flex flex-1 justify-between"/>
 
@@ -365,6 +383,7 @@ export default function ProductListing(){
                              Add to Basket
                         </Button>
                 </div>
+
             </div>
             <div className="flex w-[31%] items-center gap-5 self-end md:w-full">
                 <div className="flex items-center gap-1">

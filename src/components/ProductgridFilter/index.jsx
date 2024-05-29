@@ -32,8 +32,8 @@ export default function ProdcutgridFiltersection(){
                                         <AccordionItemState>
                                             {(props) => (
                                                 <>
-                                                    <div className="flex flex-wrap justify-between gap-5 self-stretch border-solid border-gray-400_01 pb-[11px] pt-3">
-                                                        <Text as="p" className="!font-medium !text-black-900">
+                                                    <div className="flex flex-wrap justify-between gap-5 self-stretch border-t border-solid border-gray-400_01 pb-[11px] pt-3">
+                                                        <Text as="p" className="!font-medium    !text-black-900">
                                                             Brands
                                                         </Text>
                                                         {props?.expanded?(
@@ -52,7 +52,7 @@ export default function ProdcutgridFiltersection(){
                                     <div className="flex w-[50%] flex-col items-start gap-[19px] md:w-full">
                                         <div className="flex flex-col gap-[18px] self-stretch">
                                             <CheckBox name="LG Checkbox" label="LG" id="LGCheckbox" className="gap-4 text-base text-gray-700 "/>
-                                            <CheckBox name="SamSung Checkbox" label="SamSung" id="SamSungCheckbox" className="gap-4 p-px text-base text-gray-700 "/>
+                                            <CheckBox name="Samsung Checkbox" label="Samsung" id="Sams  ungCheckbox" className="gap-4 p-px text-base text-gray-700 "/>
                                             <CheckBox name="Panasonic Checkbox" label="Panasonic" id="PanasonicCheckbox" className="gap-4 text-base text-gray-700 "/>
                                             <CheckBox name="Whirlpool Checkbox" label="Whirlpool" id="WhirlpoolCheckbox" className="gap-4 text-base text-gray-700 "/>
 
