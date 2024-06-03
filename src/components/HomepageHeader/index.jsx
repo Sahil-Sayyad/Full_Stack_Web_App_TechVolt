@@ -1,6 +1,7 @@
 import React from "react";
 import { Img } from "../Img";
 import { Text } from "../Text";
+import { NavLink } from "react-router-dom";
 
 export default function HomepageHeader({
 
@@ -31,19 +32,23 @@ export default function HomepageHeader({
             <ul className="flex flex-wrap items-center gap-10">
 
               <li>
-                <a href="#" className="border-b-2 border-solid border-deep_orange-A700">
+                 <NavLink to="/" >
+
                   <Text size="2xl" as="p" className="p-[11px] tracking-[1.40px]">
                     {home}
                   </Text>
-                </a>
+                   </NavLink>
               </li>
 
               <li>
-                <a href="productgrid" className="border-b-2 border-solid border-deep_orange-A700">
+                <NavLink to="/productgrid" className={() =>
+                                        `border-b-2 border-t-lime-500`
+                                    }>
                   <Text size="2xl" as="p" className="p-[11px] tracking-[1.40px]">
                     {shop}
                   </Text>
-                </a>
+                </NavLink>
+                  
               </li>
 
               <li>

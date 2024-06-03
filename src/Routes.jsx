@@ -3,6 +3,7 @@ import { useRoutes } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import Homepage from "./pages/Homepage";
 import ProductGridPage from "pages/ProductGrid";
+import ProductDetailsPage from "pages/ProductDetails";
 
 const ProjectRoutes = () => {
   let element = useRoutes([
@@ -14,6 +15,10 @@ const ProjectRoutes = () => {
     {
       path: "productgrid",
       element: <ProductGridPage />,
+    },
+    {
+      path: "productdetails",
+      element: <ProductDetailsPage />,
     },
   ]);
 

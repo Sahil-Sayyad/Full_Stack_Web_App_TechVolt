@@ -12,7 +12,6 @@ import {
     Accordion,
     AccordionItem,
 } from "react-accessible-accordion";
-import HomepageFootersection from "components/HomepageFootersection";
 
 export default function ProdcutgridFiltersection(){
     return (

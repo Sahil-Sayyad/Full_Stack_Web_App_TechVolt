@@ -7,7 +7,7 @@ import React from "react"
 
 export default function ProductListing(){
     return (
-        <div className="flex flex-1 flex-col items-start gap-[23px] md:self-stretch">
+        <div className="flex flex-1 flex-col items-start gap-[23px] md:self-stretch font-mono">
 
             <Text as="p" className="!font-medium !text-black-900">
                 34 Results
