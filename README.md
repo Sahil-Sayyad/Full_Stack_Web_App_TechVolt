@@ -1,4 +1,7 @@
 ## TechVolt Full Stack Web App
+`
+Explore TechVolt, tailored for eCommerce platforms specializing in technology and home appliances.This web app offers meticulously designed pages including Home, Product Details, Cart, Payment Info, and more, ensuring a cohesive and engaging user experience. With features like a wishlist, product grids, and detailed product pages, it provides everything needed to transform your online store into a tech-lover's paradise. Ideal for businesses aiming to streamline their online shopping process and enhance user engagement.
+`
 
 ## Description
 
