@@ -26,6 +26,13 @@ Explore TechVolt, tailored for eCommerce platforms specializing in technology an
 1. `cd your_application`
 2. `npm install`
 3. `npm run dev`
+   
+## Tech Stack
+
+1. `React.js`
+2. `Node.js`
+3. `Express.js`
+4. `MongoDB`
 
 ## .env file
 
