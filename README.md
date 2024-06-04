@@ -2,15 +2,21 @@
 
 ## Description
 
-- This React application is built using [vite](https://vitejs.dev).
-- It Uses [Tailwind CSS](https://tailwindcss.com/).
-- The application uses node.js as backend.
+`- This React application is built using [vite](https://vitejs.dev).`
+
+`- It Uses [Tailwind CSS](https://tailwindcss.com/).`
+
+`- The application uses node.js as the backend.`
+
+`- Database it uses MongoDB.`
 
 ## Pre-requisites
 
-- [git](https://git-scm.com/) - v2.13 or greater
-- [NodeJs](https://nodejs.org/en/) -v16 or greater
-- [npm](https://www.npmjs.com/) -v6 or greater
+`- [git](https://git-scm.com/) - v2.13 or greater`
+
+`- [NodeJs](https://nodejs.org/en/) -v16 or greater`
+
+`- [npm](https://www.npmjs.com/) -v6 or greater`
 
 ## Running in dev environment
 
@@ -20,7 +26,7 @@
 
 ## .env file
 
-this file contains various environment variables that you can configure.
+`this file contains various environment variables that you can configure.`
 
 ## Folder Structure
 
@@ -52,9 +58,9 @@ this file contains various environment variables that you can configure.
   ── vite.config.js
   ── tailwind.config.js ------------------------------ Entire theme config, colors, fonts etc.
 ```
-For the project to build, **these files must exist with exact filenames**
+``` For the project to build, **these files must exist with exact filenames**
 
 * index.html is the page template;
 * src/main.jsx is the JavaScript entry point.
 
-You may create subdirectories inside src.
+  ```
