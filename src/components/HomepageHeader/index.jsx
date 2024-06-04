@@ -32,18 +32,16 @@ export default function HomepageHeader({
             <ul className="flex flex-wrap items-center gap-10">
 
               <li>
-                 <NavLink to="/" >
+                 <NavLink to="/" className={() => "border-b-2 border-t-lime-500"}>
 
-                  <Text size="2xl" as="p" className="p-[11px] tracking-[1.40px]">
+                  <Text size="2xl" as="p" className="p-[11px] tracking-[1.40px] border-b-2 border-t-lime-500">
                     {home}
                   </Text>
                    </NavLink>
               </li>
 
               <li>
-                <NavLink to="/productgrid" className={() =>
-                                        `border-b-2 border-t-lime-500`
-                                    }>
+                <NavLink to="/productgrid" className={() => `border-b-2 border-t-lime-500`}>
                   <Text size="2xl" as="p" className="p-[11px] tracking-[1.40px]">
                     {shop}
                   </Text>

@@ -2,6 +2,8 @@ import React from "react";
 import { Button } from "components/Button";
 import { Text } from "components/Text";
 import { Img } from "components/Img";
+import { NavLink } from "react-router-dom";
+
 
 export default function HomepageFantasticdeals({
     image="images/img_image_6.png",
@@ -21,9 +23,12 @@ export default function HomepageFantasticdeals({
                     {description}
                 </Text>
             </div>
+            <NavLink to="/productdetails">
             <Button color="deep_orange_A700" className="min-w-[170px] font-inter font-medium sm:px-5 ">
                 {button}
             </Button>
+            </NavLink>
+                
         </div>
 
     );

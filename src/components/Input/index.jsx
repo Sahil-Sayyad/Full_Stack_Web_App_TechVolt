@@ -8,13 +8,13 @@ const shapes = {
 
 const variants = {
 
-    fill: {
-        white_A700: "bg-white-A700 text-gray-700",
-        gray_300_01: "bg-gray-300_01 text-gray-700",
-    },
     outline: {
         black_900_02: "border-black-900_02 border-b border-solid text-gray-700",
         blue_gray_100_01: "border-blue_gray-100_01 border border-solid text-gray-700", 
+    },
+    fill: {
+        white_A700: "bg-white-A700 text-gray-700",
+        gray_300_01: "bg-gray-300_01 text-gray-700",
     },
 };
 
@@ -30,20 +30,20 @@ const Input = React.forwardRef(
     (
      {
         
-        children,
-        name="",
-        className = "",
-        placeholder="",
-        type="text",
-        label,
-        prefix,
-        suffix,
-        onChange ,
-        shape,
-        variant = "fill", 
-        size = "sm",
-        color = "white_A700",
-        ...restProps
+         className = "",
+         name="",
+         placeholder="",
+         type="text",
+         children,
+         label ="",
+         prefix,
+         suffix,
+         onChange ,
+         shape,
+         variant = "fill", 
+         size = "sm",
+         color = "white_A700",
+         ...restProps
         },
         ref,
     ) => {
@@ -55,7 +55,7 @@ const Input = React.forwardRef(
         return (
             <>
             <label
-                className={`${className} flex  items-center justify-center cursor-text border-solid ${(shape && shapes[shape]) || ""} ${(variants[variant]?.[color]) || variants[variant] || ""}${(size && sizes[size]) || ""}`}
+                className={`${className} flex items-center justify-start cursor-text border-solid ${(shape && shapes[shape]) || ""} ${(variants[variant]?.[color]) || variants[variant] || ""}${(size && sizes[size]) || ""}`}
             >
             {!!label && label}
             {!!prefix && prefix}

@@ -1,19 +1,19 @@
 import React from "react";
 
 const sizes = {
-    "5xl" : "text-[28px] font-normal md:text-[26px] sm:text-2xl",
-    "6xl" : "text-[32px] font-medium md:text-3xl sm:text-[28px]",
-    xs:"text-xs font-normal",
-    lg:"text-base font-normal",
-    s:"text-sm font-normal",
-    "2xl":"text-xl font-normal",
-    "3xl":"text-2xl font-medium md:text-[22px]",
-    "4xl":"text-[26px] font-medium md:text-2xl sm:text-[22px]",
-    xl:"text-lg font-normal",
-    md:"text-[15px] font-medium",
+    "5xl": "text-[28px] font-normal md:text-[26px] sm:text-2xl",
+    "6xl": "text-[32px] font-medium md:text-3xl sm:text-[28px]",
+    xs: "text-xs font-normal",
+    lg: "text-base font-normal",
+    s: "text-sm font-normal",
+    "2xl": "text-xl font-normal",
+    "3xl": "text-2xl font-medium md:text-[22px]",
+    "4xl": "text-[26px] font-medium md:text-2xl sm:text-[22px]",
+    xl: "text-lg font-normal",
+    md: "text-[15px] font-medium",
 };
 
-const Text = ({children,className = "",as, size ="lg",...restProps}) =>{
+const Text = ({ children, className = "", as, size = "lg", ...restProps }) => {
     const Component = as || "p";
 
     return (
@@ -23,4 +23,4 @@ const Text = ({children,className = "",as, size ="lg",...restProps}) =>{
     );
 };
 
-export {Text};
+export { Text };

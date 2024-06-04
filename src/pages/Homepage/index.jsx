@@ -15,15 +15,15 @@ export default function Homepage(){
 
     return( 
         <>
-            <div className="flex w-full flex-col items-center bg-white-A700">
+            <div className="flex w-full flex-col items-center bg-white-A700 font-mono ">
 
-                {/* main header section */}
+                {/* Main header section */}
                 <HomepageHeader productdetailstext="Shop" className="self-stretch"/>
 
-                {/* hero slider section */}
+                {/* Hero slider section */}
                 <HomepageHerosection/>
 
-                {/* promotional section */}
+                {/* Promotional section */}
                 <div className="container-xs mt-20 flex gap-6 md:flex-col md:p5">
                     {data.map((d,index)=>(
                         <HomepageFantasticdeals 
