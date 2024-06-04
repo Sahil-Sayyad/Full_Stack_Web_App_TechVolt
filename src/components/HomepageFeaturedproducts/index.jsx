@@ -64,12 +64,12 @@ export default function HomepageFeaturedproducts(){
                                 </div>
                                 <div className="flex items-start gap-10">
                                     <a href="#" target="_blank">
-                                        <Button  className="w-full border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                                        <Button  className="w-full border border-solid border-black-900_02 font-poppins font-medium sm:px-5">
                                             Learn More
                                         </Button>
                                     </a>
 
-                                    <Button  color="deep_orange_A700" className=" font-inter font-bold sm:px-5" >
+                                    <Button  color="deep_orange_A700" className=" font-poppins font-bold sm:px-5" >
                                         Shop Now
                                     </Button>
 
@@ -115,11 +115,11 @@ export default function HomepageFeaturedproducts(){
 
                                 <div className="flex gap-10">
                                     <a href="#" target="_blank">
-                                        <Button  className="w-full border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                                        <Button  className="w-full border border-solid border-black-900_02  font-poppins font-medium sm:px-5">
                                             Learn More
                                         </Button>
                                     </a>
-                                    <Button color="deep_orange_A700"  className="font-inter font-bold sm:px-5">
+                                    <Button color="deep_orange_A700"  className="font-poppins font-bold sm:px-5">
                                         Shop Now
                                     </Button>
                                 </div>
@@ -174,12 +174,12 @@ export default function HomepageFeaturedproducts(){
                                 <div className="flex items-start  gap-10">
 
                                     <a href="#" target="_blank">
-                                        <Button  className="w-full border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                                        <Button  className="w-full border border-solid border-black-900_02  font-poppins font-medium sm:px-5">
                                             Learn More
                                         </Button>
                                     </a>        
 
-                                    <Button color="deep_orange_A700" className=" font-inter font-bold sm:px-5">
+                                    <Button color="deep_orange_A700" className=" font-poppins font-bold sm:px-5">
                                         Shop Now
                                     </Button>
 

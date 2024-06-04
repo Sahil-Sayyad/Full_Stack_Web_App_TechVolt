@@ -7,7 +7,7 @@ import HomepageFootersection from "components/HomepageFootersection"
 export default function ProductGridPage(){
     return(
         <>
-            <div className="flex w-full flex-col gap-10 bg-white-A700">
+            <div className="flex w-full flex-col gap-10 bg-white-A700 font-poppins">
                 {/* Header Section */}
                 <HomepageHeader productdetailstext="Shop"/>
                 {/** Filter Section */}

@@ -7,7 +7,7 @@ import React from "react"
 
 export default function ProductListing(){
     return (
-        <div className="flex flex-1 flex-col items-start gap-[23px] md:self-stretch font-mono">
+        <div className="flex flex-1 flex-col items-start gap-[23px] md:self-stretch font-poppins">
 
             <Text as="p" className="!font-medium !text-black-900">
                 34 Results
@@ -51,7 +51,7 @@ export default function ProductListing(){
                                     </Heading>
                                 </div>
                         </div>
-                        <Button  color="deep_orange_A700" className="w-full  font-inter font-bold sm:px-5" >
+                        <Button  color="deep_orange_A700" className="w-full   font-bold sm:px-5" >
                              Add to Basket
                         </Button>
                     </div>
@@ -92,7 +92,7 @@ export default function ProductListing(){
                                     </Heading>
                                 </div>
                         </div>
-                        <Button   className="w-full border border-solid border-black-900_02 font-inter font-bold sm:px-5" >
+                        <Button   className="w-full border border-solid border-black-900_02 font-poppins font-medium sm:px-5" >
                              Add to Basket
                         </Button>
                 </div>
@@ -133,7 +133,7 @@ export default function ProductListing(){
                                     </Heading>
                                 </div>
                         </div>
-                        <Button   className="w-full border border-solid border-black-900_02 font-inter font-bold sm:px-5" >
+                        <Button   className="w-full border border-solid border-black-900_02 font-poppins font-medium sm:px-5" >
                              Add to Basket
                         </Button>
                 </div>
@@ -174,7 +174,7 @@ export default function ProductListing(){
                                     </Heading>
                                 </div>
                         </div>
-                        <Button   className="w-full border border-solid border-black-900_02 font-inter font-bold sm:px-5" >
+                        <Button   className="w-full border border-solid border-black-900_02  font-medium sm:px-5" >
                              Add to Basket
                         </Button>
                 </div>
@@ -215,7 +215,7 @@ export default function ProductListing(){
                                     </Heading>
                                 </div>
                         </div>
-                        <Button   className="w-full border border-solid border-black-900_02 font-inter font-bold sm:px-5" >
+                        <Button   className="w-full border border-solid border-black-900_02 font-medium sm:px-5" >
                              Add to Basket
                         </Button>
                 </div>
@@ -256,7 +256,7 @@ export default function ProductListing(){
                                     </Heading>
                                 </div>
                         </div>
-                        <Button   className="w-full border border-solid border-black-900_02 font-inter font-bold sm:px-5" >
+                        <Button   className="w-full border border-solid border-black-900_02  font-medium sm:px-5" >
                              Add to Basket
                         </Button>
                 </div>
@@ -297,7 +297,7 @@ export default function ProductListing(){
                                     </Heading>
                                 </div>
                         </div>
-                        <Button   className="w-full border border-solid border-black-900_02 font-inter font-bold sm:px-5" >
+                        <Button   className="w-full border border-solid border-black-900_02  font-medium sm:px-5" >
                              Add to Basket
                         </Button>
                 </div>
@@ -338,7 +338,7 @@ export default function ProductListing(){
                                     </Heading>
                                 </div>
                         </div>
-                        <Button   className="w-full border border-solid border-black-900_02 font-inter font-bold sm:px-5" >
+                        <Button   className="w-full border border-solid border-black-900_02  font-medium sm:px-5" >
                              Add to Basket
                         </Button>
                 </div>
@@ -379,7 +379,7 @@ export default function ProductListing(){
                                     </Heading>
                                 </div>
                         </div>
-                        <Button   className="w-full border border-solid border-black-900_02 font-inter font-bold sm:px-5" >
+                        <Button   className="w-full border border-solid border-black-900_02  font-medium sm:px-5" >
                              Add to Basket
                         </Button>
                 </div>

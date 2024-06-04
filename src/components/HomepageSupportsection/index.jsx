@@ -35,7 +35,7 @@ export default function HomepageSupportsection(){
                         <Img src="images/img_icon.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] font-inter font-medium sm:px-5">
+                    <Button color="deep_orange_A700" size="lg" rightIcon={<Img src="images/img_frame_white_a700.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] font-poppins font-medium sm:px-5">
                         Learn More
                     </Button>
 
@@ -59,7 +59,7 @@ export default function HomepageSupportsection(){
 
                     </div>
                     <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} 
-                    className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                    className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-poppins font-medium sm:px-5">
                         Learn More
                     </Button>
 
@@ -82,7 +82,7 @@ export default function HomepageSupportsection(){
                         <Img src="images/img_icon_black_900_02_48x48.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[169px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-poppins font-medium sm:px-5">
                         Learn More
                     </Button>
 
@@ -106,7 +106,7 @@ export default function HomepageSupportsection(){
                         <Img src="images/img_icon_48x48.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-poppins font-medium sm:px-5">
                         Learn More
                     </Button>
 
@@ -129,7 +129,7 @@ export default function HomepageSupportsection(){
                         <Img src="images/img_icon_1.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-poppins font-medium sm:px-5">
                         Learn More
                     </Button>
 
@@ -152,7 +152,7 @@ export default function HomepageSupportsection(){
                         <Img src="images/img_volume.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                     <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                     <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-poppins font-medium sm:px-5">
                         Learn More
                     </Button>
 
@@ -176,7 +176,7 @@ export default function HomepageSupportsection(){
                         <Img src="images/img_icon_2.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5">
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[24px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-poppins font-medium sm:px-5">
                         Learn More
                     </Button>
 
@@ -198,7 +198,7 @@ export default function HomepageSupportsection(){
                         <Img src="images/img_icon_3.svg" alt="product image" className="h-[48px] w-[48px]"/>
 
                     </div>
-                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[30px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-inter font-medium sm:px-5 content-start">
+                    <Button  size="lg" rightIcon={<Img src="images/img_frame.svg" alt="frame" className="h-[30px] w-[24px]"/>} className="min-w-[200px] gap-2.5 rounded-[11px] border border-solid border-black-900_02 font-poppins font-medium sm:px-5 content-start">
                         Learn More
                     </Button>
 

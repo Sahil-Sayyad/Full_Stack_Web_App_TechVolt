@@ -86,9 +86,9 @@ export default function HomepageHeader({
             <a href="#" >
               <Img src="images/img_bag.svg" alt="bag icon" className="h-[32px] w-[32px]"/>
             </a>
-            <a href="#" >
-              <Img src="images/img_lock.svg" alt="lock icon" className="h-[32px] w-[32px]"/>
-            </a>
+              <NavLink to="/signUp">
+                <Img src="images/img_lock.svg" alt="lock icon" className="h-[32px] w-[32px]"/>
+              </NavLink>            
           </div>
 
         </div>

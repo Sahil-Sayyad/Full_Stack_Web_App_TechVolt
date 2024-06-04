@@ -4,6 +4,7 @@ import NotFound from "./pages/NotFound";
 import Homepage from "./pages/Homepage";
 import ProductGridPage from "pages/ProductGrid";
 import ProductDetailsPage from "pages/ProductDetails";
+import SignUpPage from "pages/SignUp";
 
 const ProjectRoutes = () => {
   let element = useRoutes([
@@ -20,6 +21,10 @@ const ProjectRoutes = () => {
       path: "productdetails",
       element: <ProductDetailsPage />,
     },
+    {
+      path:"signUp",
+      element:<SignUpPage/>
+    }
   ]);
 
   return element;

@@ -15,7 +15,7 @@ export default function Homepage(){
 
     return( 
         <>
-            <div className="flex w-full flex-col items-center bg-white-A700 font-mono ">
+            <div className="flex w-full flex-col items-center bg-white-A700 font-poppins">
 
                 {/* Main header section */}
                 <HomepageHeader productdetailstext="Shop" className="self-stretch"/>
