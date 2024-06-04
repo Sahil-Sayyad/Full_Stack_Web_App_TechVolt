@@ -365,15 +365,207 @@ export default function ProductDetailsPage(){
                 </div>
                 <div className="flex flex-col gap-[39px]">
                     <div className="h-px bg-gray-300_03"/>
-                    <div>
-                        
+                    <div className="flex justify-center pb-[37px] pt-8 sm:py-5">
+                        <div className="container-xs flex flex-col items-start gap-5 md:p-5">
+                        <Heading size="6xl" as="h2">
+                            All Spec
+                        </Heading>
+                        <div className="flex flex-col gap-[39px] self-stretch">
+                            <div className="flex flex-col gap-[41px]">
+                                <div className="flex flex-col items-start gap-2.5">
+                                    <Text size="3xl" as="p" className="!text-black-900">
+                                        DIMENSIONS & WEIGHTS
+                                    </Text>
+                                    <div className="h-px w-full self-stretch bg-gray-300_03"/>
+
+                                </div>
+                                <div className="flex items-center gap-12">
+                                    <div className="flex flex-col items-start gap-[9px]">
+                                        <Text size="xs" as="p" className="!text-gray-700">
+                                            Product Dimensions (WxHxD mm)
+                                        </Text>
+                                        <Text as="p">600 x 850 x 565</Text>
+                                    </div>
+                                    <div className="flex flex-col items-start gap-2.5">
+                                        <Text size="xs" as="p" className="!text-gray-700">
+                                            Weight (kg)
+                                        </Text>
+                                        <Text as="p">59kg</Text>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex flex-1 flex-col gap-[23px]">
+                                <div className="flex flex-col items-start gap-2.5">
+                                    <Text size="3xl" as="p" className="!text-black-900">
+                                        MATERIAL & FINISH
+                                    </Text>
+                                    <div className="h-px w-full self-stretch bg-gray-300_03"/>
+                                </div>
+                                <div className="flex flex-col items-start gap-[7px]">
+                                        <Text size="xs" as="p" className="!text-gray-700">
+                                            Body Color
+                                        </Text>
+                                        <Text as="p">Black VCM</Text>
+                                </div>
+                            </div>
+                            <div className="flex flex-1 flex-col gap-[23px]">
+                                <div className="flex flex-col items-start gap-2.5" >
+                                    <Text size="3xl" as="p" className="!text-black-900">
+                                        CAPACITY
+                                    </Text>
+                                    <div className="h-px w-full self-stretch bg-gray-300_03"/>
+                                </div>
+                                <div className="flex flex-col items-start gap-2">
+                                        <Text size="xs" as="p" className="!text-gray-700">
+                                            Max Wash Capacity(kg)
+                                        </Text>
+                                        <Text as="p" className="h-[23px] w-[24px]">11.0</Text>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex  flex-col gap-[23px]">
+                            <div className="flex flex-col items-start gap-2.5">
+                                <Text size="3xl" as="p" className="!text-black-900">
+                                        CONTROL & DISPLAY
+                                 </Text>
+                                 <div className="h-px w-full self-stretch bg-gray-300_03"/>
+                            </div>
+                            <div className="flex items-center gap-12">
+                                <div className="flex flex-col items-start gap-2">
+                                    <Text size="xs" as="p" className="!text-gray-700">
+                                         Delay Timer
+                                    </Text>
+                                    <Text as="p">Yes</Text>
+                                </div>
+                                <div className="flex flex-col items-start gap-[7px] self-start">
+                                    <Text size="xs" as="p" className="!text-gray-700">
+                                         Display Type
+                                    </Text>
+                                    <Text as="p">LED</Text>
+                                </div>
+                                <div className="flex flex-col items-start gap-[9px]">
+                                    <Text size="xs" as="p" className="!text-gray-700">
+                                         Door Lock Indication
+                                    </Text>
+                                    <Text as="p">Yes</Text>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex flex-col gap-[23px]">
+                            <div className="flex-col items-start gap-2.5">
+                                <Text size="3xl" as="p" className="!text-black-900">
+                                     FEATURES
+                                 </Text>  
+                                 <div className="h-px w-full self-stretch bg-gray-300_03"/>
+                            </div>
+                            <div className="flex flex-col gap-[11px]">
+                                <div className="flex flex-col gap-[13px]">
+                                    {productData2.map((d,index) => (
+                                        <div key={"motionList" + index} className="flex flex-1 items-center gap-12 sm:flex-col">
+                                            <div className="flex flex-col items-start gap-[9px]">
+                                                <Text size="xs" as="p" className="!text-gray-700">
+                                                    {d.motionDdText}
+                                                </Text>
+                                                <Text as="p">Yes</Text>
+                                            </div>
+                                            <div className="flex flex-col items-start gap-[9px]">
+                                                <Text size="xs" as="p" className="self-center !text-gray-700">
+                                                    {d.aiddText}
+                                                </Text>
+                                                <Text as="p">{d.aiddValue}</Text>
+                                            </div>
+                                            <div className="flex flex-col items-start gap-[7px]">
+                                                <Text size="xs" as="p" className="!text-gray-700">
+                                                    {d.cycleEndText}
+                                                </Text>
+                                                <Text as="p">{d.cycleEndValue}</Text>
+                                            </div>
+                                            <div className="flex flex-col items-start gap-[9px]">
+                                                <Text size="xs" as="p" className="!text-gray-700">
+                                                    {d.addItemText}
+                                                </Text>
+                                                <Text as="p">{d.addItemValue}</Text>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                                <div className="flex flex-col items-start gap-[9px]">
+                                    <Text size="xs" as="p" className="!text-gray-700">
+                                          TurboWash
+                                    </Text>
+                                    <Text as="p">Yes</Text>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
-
             </div>
-
+        </div>
          </div>
-        </>
+
+    {/* Product Features and Benefits Section */}
+    <div className="mt-20 self-stretch">
+        <div className="flex h-[930px] items-center justify-center bg-[url(/public/images/img_banner.png)] bg-cover bg-no-repeat pb-[103px] pt-[649px] md:h-auto md:py-5">
+            <div className="container-xs flex justify-center px-[293px] md:p-5 md:px-5">
+                <div className="flex w-full flex-col items-center gap-3">
+                    <Heading size="5xl" as="h2" className="!font-bold !text-white-A700">
+                        LG ThinQ with Wi-Fi
+                    </Heading>
+                    <Heading as="h3" className="w-full text-center !font-bold leading-6 tracking-[1.12px] !text-white-A700">
+                        LG ThinQ with Wi-Fi makes laundry much more convenient. Smart Remote Control enables you to do your
+                        laundry anytime, anywhere. With Download Cycle, download up to 20 additional wash programs. Smart
+                        Daignosis helps you quickly troubleshoot almost any minor issue before it becomes a bigger problem.
+                    </Heading>
+                </div>
+            </div>
+        </div>
+        <div className="flex h-[668px] items-center justify-center bg-[url(/public/images/img_banner_668x1440.png)] bg-cover bg-no-repeat pb-[51px] pt-[394px] md:h-auto md:py-5">
+            <div className="container-xs flex  md:p-5 ">
+                <div className="flex w-[34%] flex-col  gap-6 md:w-full">
+                    <Heading size="5xl" as="h2" className="leading-[100%] !text-white-A700">
+                        <>
+                        Thoroughly
+                        <br/>
+                        Clean in 39 minutes
+                        </>
+                    </Heading>
+                    <Text as="p" className="leading-6 tracking-[1.12px] !text-white-A700">
+                        With TurboWash 360, you laundry can be thoroughly done in just 39 minutes with more fabric
+                        protection. 4 directions of 3D multi nozzles which reaches every inch of your laundry.
+                    </Text>
+                </div>
+            </div>
+        </div>
+        <div className="flex flex-col items-center gap-[31px] pt-[92px] md:pt-5">
+            <div className="container-xs flex flex-col items-center px-[268px] md:p-5 md:px-5">
+                <div className="flex flex-col items-center gap-2.5">
+                    <Heading size="5xl" as="h2">
+                        Bigger Capacity in the Same Space
+                    </Heading>
+                    <Text as="p" className="tracking-[1.12px]">
+                        Get bigger drum capacity in same size!
+                    </Text>
+                </div>
+            </div>
+            <Img src="images/img_image_10.png" alt="imageten" className="h-[740px] w-full object-cover md:h-auto"/>
+        </div>
+    </div>
+    {/*Recently Viewed Products Section */}
+    <div className="container-xs mt-[111px] flex flex-col items-start gap-7 md:p-5">
+        <Heading size="6xl" as="h2">
+            Recently Viewed
+        </Heading>
+        <div className="flex gap-10 self-stretch md:flex-col">
+            {productData.map((d,index)=> (
+
+            ))}
+
+        </div>
+
+    </div>
+
+</>
+
     )
 }
