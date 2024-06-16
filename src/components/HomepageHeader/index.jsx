@@ -1,4 +1,3 @@
-import React from "react";
 import { Img } from "../Img";
 import { Text } from "../Text";
 import { NavLink } from "react-router-dom";
@@ -82,10 +81,9 @@ export default function HomepageHeader({
             <a href="#" >
               <Img src="images/img_search.svg" alt="search icon" className="h-[32px] w-[32px]"/>
             </a>
-
-            <a href="#" >
+              <NavLink to="cart">
               <Img src="images/img_bag.svg" alt="bag icon" className="h-[32px] w-[32px]"/>
-            </a>
+              </NavLink>
               <NavLink to="/signUp">
                 <Img src="images/img_lock.svg" alt="lock icon" className="h-[32px] w-[32px]"/>
               </NavLink>            
